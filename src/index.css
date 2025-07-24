@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-grotesk bg-navy text-white transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
+
+.light body {
+  @apply bg-white text-gray-900;
+}
+
+.glass {
+  @apply bg-glass backdrop-blur-md shadow-lg border border-white/10;
+}

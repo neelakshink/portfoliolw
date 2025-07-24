@@ -100,7 +100,7 @@ const Hero = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/neelakshi-kaundal', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com/in/neelakshi-kaundal', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:neelakshi.kaundal@email.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:neelakshikaundal89@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -113,19 +113,19 @@ const Hero = () => {
       {/* Profile picture at top left */}
       <div className="absolute top-8 left-8 z-20">
         <div className="w-28 h-28 rounded-full bg-gradient-to-br from-yellow-300/60 to-yellow-500/80 p-1 shadow-lg shadow-yellow-400/30">
-          <img 
-            src="https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" 
-            alt="Neelakshi Kaundal" 
-            className="w-full h-full rounded-full object-cover"
-          />
-        </div>
-      </div>
+              <img 
+                src="https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" 
+                alt="Neelakshi Kaundal" 
+                className="w-full h-full rounded-full object-cover"
+              />
+            </div>
+          </div>
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
           <div className="backdrop-blur-xl bg-white/10 border border-yellow-400/30 rounded-3xl shadow-2xl shadow-yellow-400/20 px-8 py-10 mx-auto max-w-2xl animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-extrabold mb-6 text-yellow-400 tracking-wide animate-fade-in drop-shadow-lg">
               NEELAKSHI KAUNDAL
-            </h1>
+          </h1>
             <p className="text-xl md:text-2xl text-yellow-200 font-medium mb-6 animate-fade-in-up">
               Creative Developer | Portfolio
             </p>

@@ -105,7 +105,7 @@ const Education = () => {
 
         <div ref={educationRef} className="relative">
           {/* Timeline line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-cyan-500 via-purple-500 to-pink-500 rounded-full hidden md:block"></div>
+          {/* Remove the vertical timeline line (usually a div with border-l or similar) from the Education & Experience section. */}
           
           {educationData.map((item, index) => (
             <div

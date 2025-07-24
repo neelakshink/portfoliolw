@@ -9,7 +9,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/neelakshi-kaundal', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com/in/neelakshi-kaundal', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:neelakshi.kaundal@email.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:neelakshikaundal89@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -21,8 +21,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-900/95 backdrop-blur-sm border-t border-gray-800/50 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="glass p-6 rounded-t-2xl shadow-lg max-w-7xl mx-auto mt-12 font-grotesk">
+      <div className="font-dmsans">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
@@ -75,13 +75,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-cyan-400">Get In Touch</h4>
             <div className="space-y-2">
               <p className="text-gray-400">
-                <span className="font-medium">Email:</span> neelakshi.kaundal@email.com
+                <span className="font-medium">Email:</span> neelakshikaundal89@gmail.com
               </p>
               <p className="text-gray-400">
-                <span className="font-medium">Phone:</span> +91 98765 43210
+                <span className="font-medium">Phone:</span> 9056103909
               </p>
               <p className="text-gray-400">
-                <span className="font-medium">Location:</span> New Delhi, India
+                <span className="font-medium">Location:</span> Hoshiapur, Mukerian (Punjab)
               </p>
             </div>
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white text-sm rounded-full">

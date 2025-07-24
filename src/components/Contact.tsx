@@ -37,19 +37,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'neelakshi.kaundal@email.com',
-      href: 'mailto:neelakshi.kaundal@email.com'
+      value: 'neelakshikaundal89@gmail.com',
+      href: 'mailto:neelakshikaundal89@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210'
+      value: '9056103909',
+      href: 'tel:9056103909'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'New Delhi, India',
+      value: 'Hoshiapur, Mukerian (Punjab)',
       href: '#'
     }
   ];
@@ -107,50 +107,12 @@ const Contact = () => {
             </div>
 
             {/* Skills highlight */}
-            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50">
-              <h4 className="text-xl font-semibold mb-4 text-cyan-400">
-                What I Can Help You With:
-              </h4>
-              <ul className="space-y-2 text-gray-300">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                  Full-stack Web Development
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                  Python Automation & Scripting
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                  Database Design & Management
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                  Cloud Solutions & DevOps
-                </li>
-              </ul>
-            </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50">
-            <h3 className="text-2xl font-semibold mb-6 text-cyan-400">
-              Send Message
-            </h3>
-            
-            {isSubmitted && (
-              <div className="mb-6 p-4 bg-green-500/20 border border-green-500/50 rounded-lg">
-                <div className="flex items-center text-green-400">
-                  <CheckCircle size={20} className="mr-2" />
-                  <span className="font-semibold">Message sent successfully!</span>
-                </div>
-                <p className="text-sm text-green-300 mt-1">
-                  Thank you for reaching out. I'll get back to you soon!
-                </p>
-              </div>
-            )}
-            
-            <form onSubmit={handleSubmit} className="space-y-6">
+          <div className="glass p-8 rounded-2xl shadow-lg max-w-2xl mx-auto mt-12">
+            <h2 className="text-3xl font-bold mb-6 text-cyan-400 font-grotesk">Contact</h2>
+            <form className="space-y-6 font-dmsans">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="form-group">
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
