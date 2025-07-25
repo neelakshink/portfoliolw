@@ -123,7 +123,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
           <div className="backdrop-blur-xl bg-white/10 border border-yellow-400/30 rounded-3xl shadow-2xl shadow-yellow-400/20 px-8 py-10 mx-auto max-w-2xl animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 text-yellow-400 tracking-wide animate-fade-in drop-shadow-lg">
+            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-wide animate-fade-in drop-shadow-lg bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 text-transparent bg-clip-text">
               NEELAKSHI KAUNDAL
           </h1>
             <p className="text-xl md:text-2xl text-yellow-200 font-medium mb-6 animate-fade-in-up">
