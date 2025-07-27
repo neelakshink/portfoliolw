@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
@@ -6,23 +6,16 @@ import Projects from './components/Projects';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ParticleBackground from './components/ParticleBackground';
-import { motion } from 'framer-motion';
-import './styles/animations.css';
 
 function App() {
-  // Remove test animation state and button
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden">
-      <ParticleBackground />
+    <div className="min-h-screen bg-white text-gray-900 overflow-x-hidden">
       <Header />
-        <Hero />
+      <Hero />
+      <Skills />
+      <Projects />
       <Education />
-      <main>
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
+      <Contact />
       <Footer />
     </div>
   );
