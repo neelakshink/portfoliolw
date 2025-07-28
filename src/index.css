@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-grotesk bg-navy text-white transition-colors duration-300;
+  @apply font-space-grotesk bg-navy text-white transition-colors duration-300;
 }
 
 .dark body {
